@@ -1,0 +1,19 @@
+#include <stdio.h>
+/**
+ * main - entry point
+ *
+ * Description: conditional statements
+ *
+ * Return: always 0 (success)
+ */
+int main(void)
+{
+	int x;
+
+	for (x = 0; x < 10; x++)
+	{
+		putchar("%d");
+	}
+	putchar('\n');
+	return (0);
+}
