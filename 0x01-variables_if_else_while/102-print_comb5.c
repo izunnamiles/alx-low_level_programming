@@ -8,41 +8,36 @@
  */
 int main(void)
 {
-	int i, j, k, l, m, n;
+	int i, j, k, l;
 
-	i = j = k = l = 48;
-	while (l < 58)
+	for (i = 48; i <= 57; i++)
 	{
-		k = 48;
-		while (k < 58)
+		for (j = 48; j <= 57; j++)
 		{
-			j = 48;
-			while (j < 58)
+			for (k = 48; k <= 57; k++)
 			{
-				i = 48;
-				while (i < 58)
+				for (l = 48; l <= 57; l++)
 				{
-					m = (l * 10) + k;
-					n = (j * 10) + i;
-					if (m < n)
+					if (!(j < l || i <= k))
 					{
-						putchar(l);
-						putchar(k);
-						putchar(' ');
-						putchar(j);
-						putchar(i);
-						if ((l == 57 && k == 56) && (j == 57 && i == 57))
-							break;
-						putchar(',');
-						putchar(' ');
+						continue;
 					}
-					i++;
+					else
+					{
+						putchar(i);
+						putchar(j);
+						putchar(' ');
+						putchar(k);
+						putchar(l);
+						if (!(i == 57 && j == 56 && k == 57 && l == 57))
+						{
+							putchar(',');
+							putchar(' ');
+						}
+					}
 				}
-				j++;
 			}
-			k++;
 		}
-		l++;
 	}
 	putchar('\n');
 	return (0);
