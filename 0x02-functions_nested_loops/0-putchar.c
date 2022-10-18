@@ -9,8 +9,13 @@
  */
 int main(void)
 {
-	char x;
+	char *x = "Holberton";
 
-	_putchar(x);
+	while (*x)
+	{
+		_putchar(*x);
+		x++;
+	}
+	_putchar('\n');
 	return (0);
 }
