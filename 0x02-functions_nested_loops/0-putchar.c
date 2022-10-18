@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char *x = "Holberton";
+	char *x = "_putchar";
 
 	while (*x)
 	{
