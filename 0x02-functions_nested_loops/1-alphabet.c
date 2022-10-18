@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - entry point
+ * print_alphabet - entry point
  *
- * Description: functions and nested loops
+ * Description: prints a-z
  *
  * Return: always 0 (success)
  */
