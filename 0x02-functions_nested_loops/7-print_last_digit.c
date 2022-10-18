@@ -6,13 +6,17 @@
  *
  * @c: is the expected parameter
  *
- * Return: always 0 (success)
+ * Return: value of the last digit
  */
 int print_last_digit(int c)
 {
 	int s;
 
 	s = (c % 10);
-	_putchar(s);
+	if (s < 0)
+	{
+		s = (-1 * s);
+	}
+	_putchar(s + 's');
 	return (s);
 }
