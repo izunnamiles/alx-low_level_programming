@@ -6,15 +6,6 @@
  *
  * Return: always 0 (success)
  */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
-/*
-* Description: print a-z
-*/
 void print_alphabet(){
 	char x;
 
