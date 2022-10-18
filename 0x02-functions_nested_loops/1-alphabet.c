@@ -20,7 +20,7 @@ void print_alphabet(){
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
-		putchar(x);
+		_putchar(x);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
