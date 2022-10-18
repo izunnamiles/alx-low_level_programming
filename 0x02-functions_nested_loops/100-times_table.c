@@ -1,16 +1,14 @@
 #include "main.h"
 /**
- * times_table - entry point
+ * print_times_table - entry point
  *
  * Description: return times table
  *
- * Return: return times  table
+ * Return: prints times table
  */
 void print_times_table(int n)
 {
-	int x, y, z;
-
-	x = 0;
+	int x = 0, y, z;
 
 	if (n > 15 || n < 0)
 		return;
