@@ -4,6 +4,8 @@
  *
  * Description: return times table
  *
+ * @n: is the expected parameter
+ *
  * Return: prints times table
  */
 void print_times_table(int n)
