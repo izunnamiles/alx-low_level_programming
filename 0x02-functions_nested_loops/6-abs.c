@@ -2,7 +2,7 @@
 /**
  * _abs - entry point
  *
- * Description: checks if parameter is alphabet
+ * Description: return absolute integer
  *
  * @c: is the expected parameter
  *
