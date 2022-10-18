@@ -4,6 +4,8 @@
  *
  * Description: return countdown
  *
+ * @n: is the expected parameter
+ *
  * Return: loop an integer to return 98
  */
 void print_to_98(int n)
