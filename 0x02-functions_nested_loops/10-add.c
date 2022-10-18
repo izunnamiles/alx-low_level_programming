@@ -1,14 +1,15 @@
 #include "main.h"
 /**
- * _abs - entry point
+ * add - entry point
  *
- * Description: return absolute integer
+ * Description: return addition of two integers
  *
- * @c: is the expected parameter
+ * @c: is the first parameter
+ * @d: is the second parameter
  *
- * Return: always 0 (success)
+ * Return: addition of two integers
  */
-int _abs(int c, int d)
+int add(int c, int d)
 {
 	return (c + d);
 }
