@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_number - Function that prints an integer.
  * @n: int type number
@@ -7,9 +6,9 @@
  */
 void print_number(int n)
 {
-	int m; /* power of 10 */
-	int c; /* boolean check */
-	int num; /* convert int to long */
+	int m;
+	int c;
+	int num;
 
 	num = n;
 	/* negatives */
