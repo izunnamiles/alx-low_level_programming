@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * main - entry point
+ * print_numbers - entry point
  *
  * Description: functions and nested loops
  *
- * Return: always 0 (success)
+ * Return: void
  */
-int main(void)
+void print_numbers(void)
 {
 	int x[] = {0, 1, 2, 3 , 4, 5, 6, 7, 8, 9};
 	int i;
@@ -16,5 +16,5 @@ int main(void)
 		_putchar(x[i]);
 	}
 	_putchar('\n');
-	return (0);
 }
+
