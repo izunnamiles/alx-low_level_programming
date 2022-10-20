@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * print_most_numbers - entry point
+ * more_numbers - entry point
  *
  * Description: functions and nested loops
  *
  * Return: void
  */
-void print_most_numbers(void)
+void more_numbers(void)
 {
 	int i, j;
 
