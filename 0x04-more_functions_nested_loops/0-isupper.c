@@ -4,7 +4,7 @@
  *
  * Description: functions and nested loops
  *
- *@c: parameters expects Capital
+ * @c: parameters expects Capital
  *
  * Return: returns 1 if it's capital else 0
  */
