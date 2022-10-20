@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * _isupper - entry point
+ * _isdigit - entry point
  *
  * Description: functions and nested loops
  *
- * @c: parameters expects Capital
+ * @c: parameters expects a digit
  *
- * Return: returns 1 if it's capital else 0
+ * Return: returns 1 if it's a digit
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
 	if ((c <= '9'))
 		return (1);
