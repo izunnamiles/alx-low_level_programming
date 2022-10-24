@@ -4,7 +4,7 @@
  *
  * Description: Pointers, array and strings
  *
- * @n: parameters expects Capital
+ * @n: parameter to be an int
  *
  * Return: converts value set to the function to 98;
  */
