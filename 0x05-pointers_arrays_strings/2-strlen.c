@@ -10,16 +10,9 @@
  */
 int _strlen(char *s)
 {
-	int n, sum;
-	char r = s[0];
+	int n;
 
-	n = 0;
-	sum = 0;
+	for (n = 0; s[n]!= '\0'; n++)
 
-	while (r != '\0')
-	{
-		sum++;
-		r = s[n++];
-	}
-	return (sum);
+	return (n);
 }
