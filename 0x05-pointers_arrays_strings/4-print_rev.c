@@ -4,7 +4,7 @@
  *
  * Description: Pointers, array and strings
  *
- * @str: parameter to be an char
+ * @s: parameter to be an char
  *
  * Return: returns rev of the string;
  */
@@ -12,7 +12,7 @@ void print_rev(char *s)
 {
 	int n;
 
-	for (n = 0; s[n] != '\0'; --n)
+	for (n = 0; s[n] != '\0'; n--)
 		_putchar(s[n]);
 	_putchar('\n');
 }
