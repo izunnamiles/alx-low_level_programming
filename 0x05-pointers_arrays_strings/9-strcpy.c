@@ -7,7 +7,7 @@
  * @dest: parameter to be an int array
  * @src: parameter to be an int count of the array
  *
- * Return: converts value set to the function to 98;
+ * Return: copies value of the second parameter;
  */
 char *_strcpy(char *dest, char *src)
 {
