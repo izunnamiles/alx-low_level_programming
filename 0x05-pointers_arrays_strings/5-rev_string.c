@@ -4,7 +4,7 @@
  *
  * Description: Pointers, array and strings
  *
- * @str: parameter to be an char
+ * @s: parameter to be an char
  *
  * Return: reverse the string;
  */
