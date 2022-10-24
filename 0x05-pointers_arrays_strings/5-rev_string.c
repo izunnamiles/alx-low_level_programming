@@ -8,7 +8,7 @@
  *
  * Return: reverse the string;
  */
-oid rev_string(char *s)
+void rev_string(char *s)
 {
 	int n, m, o;
 	char p;
