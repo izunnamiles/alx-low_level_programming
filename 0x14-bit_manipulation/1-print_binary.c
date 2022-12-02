@@ -1,34 +1,36 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
- * print_binary - Entry Point
- * @n: dec input
- * Return: 0
+ * print_binary - Print out the binary representation of an unsigned long int
+ * @n: The unsigned long int to print in binary
  */
 void print_binary(unsigned long int n)
 {
-	int i = 0, count, k, temp;
+	unsigned long int revnum;
+	unsigned long int count;
 
+	revnum = count = 0;
 	if (n == 0)
+		_putchar('0');
+	while (n > 0)
 	{
-		printf("0");
-		return;
+		revnum = revnum << 1;
+		revnum += n & 1;
+		count++;
+		n = n >> 1;
 	}
-
-	temp = n;
-
-	while (temp != 0)
+	while (revnum > 0)
 	{
-		i++;
-		temp = temp >> 1;
+		_putchar((revnum & 1) + '0');
+		revnum = revnum >> 1;
+		count--;
 	}
-
-	for (count = i - 1; count >= 0; count--)
+	if (count > 0)
 	{
-		k = n >> count;
-		if (k & 1)
-			printf("1");
-		else
-			printf("0");
+		while (count != 0)
+		{
+			_putchar('0');
+			count--;
+		}
 	}
 }
