@@ -30,5 +30,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int index, int n);
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
 listint_t *reverse_listint(listint_t **head);
 size_t print_listint_safe(const listint_t *head);
+listadd_t *add_nodeaddress(listadd_t **head, const listint_t *address);
+void free_listadd(listadd_t *head);
 
 #endif
